@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+
+    background-color: rgb(174, 0, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+
+#nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../images/pexels\ real\ estate\ house.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+
+
+}
+
+.inputsection {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    padding: 20px;
+    background-color: rgb(126, 42, 165);
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+
+input {
+    padding: 10px;
+    width: 40%;
+}
+
+.btn {
+    background-color: rgba(255, 9, 9, 0.986);
+    width: 130px;
+    color: white;
+    border: none;
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 3%;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 5%;
+
+}
+
+.text-container {
+    width: 100%;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 1rem;
+}
+
+.text-container p {
+    line-height: 1.6;
+    margin-top: 1.2rem;
+    color: grey;
+}
+
+.text-container a {
+    color: red;
+}
+
+.home-item img {
+    width: 100%;
+}
+
+.flex-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 49px;
+    grid-row-gap: 0px;
+    padding-bottom: 10%;
+}
+
+.design-down {
+    background-color: black;
+    line-height: 1.6;
+    padding: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.btn2 {
+    background-color: rgba(255, 9, 9, 0.986);
+    width: 20%;
+    color: white;
+    border: none;
+    padding: 1.8%;
+
+}
+
+.design-down input {
+    width: 30%;
+
+}
+
+.design-down p{
+    padding-bottom: 30px;
+}
